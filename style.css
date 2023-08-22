@@ -1,0 +1,108 @@
+img{
+    width: 25%;
+}
+
+.nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.gen{
+    background-color: #FAFAFA;
+    padding-bottom: 5px;
+}
+
+svg{
+    width: 1.3rem;
+    margin-left: 20px;
+}
+
+.upper-container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+}
+
+.sear > input{
+    width: 500px;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+.sear > svg{
+    padding-right: 50px;
+    width: 1rem;
+}
+
+.lower-container{
+    display: flex;
+    gap: 20%;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-bottom: 25px;
+    background-color: #FAFAFA;
+}
+
+.content{
+    margin-left: 10%;
+}
+
+.ref{
+    display: flex;
+    gap: 25px;
+}
+
+.ref > a{
+    color: grey;
+    text-decoration: none;
+}
+
+h3{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+p{
+    color: grey;
+}
+
+a{
+    color: green;
+    margin-top: 30px;
+}
+
+.link{
+    margin-bottom: 10px;   
+}
+
+.pop{
+    border: 2px solid grey;
+    width: 50%;
+    margin-top: 40px;
+}
+
+.srch{
+    margin-top: 45px;
+    padding-bottom: 0;
+}
+
+.link > a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+
+
+
+@media (max-width: 500px) {
+    .general-container{
+        width: 600px;
+        height: 50px;
+    }
+}
+
+
+
